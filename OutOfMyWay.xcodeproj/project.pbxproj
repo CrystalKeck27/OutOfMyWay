@@ -13,6 +13,16 @@
 		A0270C19262BB6970062E21E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0270C18262BB6970062E21E /* Preview Assets.xcassets */; };
 		A0270C24262BB6970062E21E /* OutOfMyWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0270C23262BB6970062E21E /* OutOfMyWayTests.swift */; };
 		A0270C2F262BB6970062E21E /* OutOfMyWayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0270C2E262BB6970062E21E /* OutOfMyWayUITests.swift */; };
+		A0270C40262BB6B00062E21E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0270C3F262BB6B00062E21E /* Route.swift */; };
+		A0B83D84262DB869003E171C /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83D83262DB868003E171C /* Obstacle.swift */; };
+		A0B83D89262DB875003E171C /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83D88262DB875003E171C /* Segment.swift */; };
+		A0B83D8E262DB884003E171C /* Drive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83D8D262DB884003E171C /* Drive.swift */; };
+		A0B83D98262DBDBC003E171C /* SearchSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83D97262DBDBC003E171C /* SearchSelectorView.swift */; };
+		A0B83DA5262DE073003E171C /* InitializableWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83DA4262DE073003E171C /* InitializableWith.swift */; };
+		A0B83DAD262DE70E003E171C /* DriveRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83DAC262DE70E003E171C /* DriveRowView.swift */; };
+		A0B83DBB262DE985003E171C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83DBA262DE985003E171C /* Location.swift */; };
+		A0B83DC0262E1355003E171C /* LocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B83DBF262E1355003E171C /* LocationRowView.swift */; };
+		A0FC6DAB264EC7A6000DB989 /* DriveFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC6DAA264EC7A6000DB989 /* DriveFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		A0270C2A262BB6970062E21E /* OutOfMyWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutOfMyWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0270C2E262BB6970062E21E /* OutOfMyWayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfMyWayUITests.swift; sourceTree = "<group>"; };
 		A0270C30262BB6970062E21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0270C3F262BB6B00062E21E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		A0B83D83262DB868003E171C /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		A0B83D88262DB875003E171C /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		A0B83D8D262DB884003E171C /* Drive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drive.swift; sourceTree = "<group>"; };
+		A0B83D97262DBDBC003E171C /* SearchSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSelectorView.swift; sourceTree = "<group>"; };
+		A0B83DA4262DE073003E171C /* InitializableWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializableWith.swift; sourceTree = "<group>"; };
+		A0B83DAC262DE70E003E171C /* DriveRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveRowView.swift; sourceTree = "<group>"; };
+		A0B83DBA262DE985003E171C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A0B83DBF262E1355003E171C /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
+		A0FC6DAA264EC7A6000DB989 /* DriveFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,19 @@
 			children = (
 				A0270C11262BB6950062E21E /* OutOfMyWayApp.swift */,
 				A0270C13262BB6950062E21E /* ContentView.swift */,
+				A0FC6DAA264EC7A6000DB989 /* DriveFormView.swift */,
+				A0B83D97262DBDBC003E171C /* SearchSelectorView.swift */,
+				A0B83DAC262DE70E003E171C /* DriveRowView.swift */,
+				A0B83DBF262E1355003E171C /* LocationRowView.swift */,
+				A0B83DA4262DE073003E171C /* InitializableWith.swift */,
 				A0270C15262BB6970062E21E /* Assets.xcassets */,
 				A0270C1A262BB6970062E21E /* Info.plist */,
 				A0270C17262BB6970062E21E /* Preview Content */,
+				A0270C3F262BB6B00062E21E /* Route.swift */,
+				A0B83D83262DB868003E171C /* Obstacle.swift */,
+				A0B83D88262DB875003E171C /* Segment.swift */,
+				A0B83D8D262DB884003E171C /* Drive.swift */,
+				A0B83DBA262DE985003E171C /* Location.swift */,
 			);
 			path = OutOfMyWay;
 			sourceTree = "<group>";
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B83DC0262E1355003E171C /* LocationRowView.swift in Sources */,
+				A0B83D8E262DB884003E171C /* Drive.swift in Sources */,
+				A0FC6DAB264EC7A6000DB989 /* DriveFormView.swift in Sources */,
+				A0B83DBB262DE985003E171C /* Location.swift in Sources */,
+				A0270C40262BB6B00062E21E /* Route.swift in Sources */,
+				A0B83DA5262DE073003E171C /* InitializableWith.swift in Sources */,
+				A0B83D89262DB875003E171C /* Segment.swift in Sources */,
 				A0270C14262BB6950062E21E /* ContentView.swift in Sources */,
+				A0B83D84262DB869003E171C /* Obstacle.swift in Sources */,
 				A0270C12262BB6950062E21E /* OutOfMyWayApp.swift in Sources */,
+				A0B83D98262DBDBC003E171C /* SearchSelectorView.swift in Sources */,
+				A0B83DAD262DE70E003E171C /* DriveRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
